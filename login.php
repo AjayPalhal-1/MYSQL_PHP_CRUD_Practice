@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO users (user, pass) VALUES ('$user', '$pass')";
     if ($conn->query($sql) === TRUE) {
         // Data inserted successfully
-        echo "New record created successfully!";
+        echo "ए, कोणी दिलं नाही यश आणलंय ओढून साऱ्या संकटांशी असं लढून";
     } else {
         // Error inserting data
         echo "Error: " . $sql . "<br>" . $conn->error;
